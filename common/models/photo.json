@@ -1,0 +1,33 @@
+{
+  "name": "photo",
+  "plural": "photos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+	  "default": "unknown"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+	  "default": "http://www.bilgorod-d.org.ua/images/material-1520587618740-name-1520587618743.jpg"
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
