@@ -1,6 +1,6 @@
 {
   "photos": {
 	"connector": "loopback-connector-mongodb",
-	"url": "mongodb://lfx98:<password>@ds259268.mlab.com:59268/photos"
+	"url": "mongodb://lfx98:1234@ds259268.mlab.com:59268/photos"
    }
 }
